@@ -1,0 +1,8 @@
+teste = input ("Digite algo: ")
+print (f"O tipo primitivo desse valor é {(type(teste))}")
+print (f"So tem espaço: {teste.isspace()}")
+print (f"É um número: {teste.isnumeric()}")
+print (f"É alfabético: {teste.isalpha()}")
+print (f"É alfanumerico: {teste.isalnum()}")
+print (f"Esta em maiúscula: {teste.isupper()}")
+print (f"Está em minúscula: {teste.islower()}")

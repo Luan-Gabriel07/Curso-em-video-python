@@ -1,0 +1,8 @@
+medida = float(input("Informe uma medida em metros: "))
+print (f"A medida de {medida} corresponde a:")
+print (f"{medida/1000:.2f}km")
+print (f"{medida/100:.2f}hm")
+print (f"{medida/10:.2f}dam")
+print (f"{medida*10:.2f}dm")
+print (f"{medida*100:.2f}cm")
+print (f"{medida*1000:.2f}mm")
